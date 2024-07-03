@@ -1,0 +1,29 @@
+¿para qué utilizamos git remote add origin? qué pasa si no lo utilizamos?
+
+Lo utilizamos para saber a donde lo vamos a mandar ese archivo, osea a que
+ repositorio(esto se hace mediante el link del repositorio)
+_____________________________________________________________
+si bien ambos entran en el paso a paso del guardado, ¿cuál es la diferencia
+ entre git add y git push?
+
+git add es para preparar el archivo para poder utilizar el git push, lo que
+hace el git push; es guardarlo directamente al repositorio del git hub.
+______________________________________________________________
+¿por qué utilizamos git push origin main y no solo git push? a dónde 
+queremos enviar las cosas?
+
+utilizamos el Git push origin main, para poder subir el origen del archivo al
+repositorio. Sin el "Origin main"; no podriamos.
+______________________________________________________________
+¿cuáles son los estados (3 colores) que puede tener un archivo?
+estos 3 colores son: Gris, Verde y rojo
+
+Estado red:no subio el archivo(es decir no esta preparado para subir el
+archivo a un repositorio). Para esto lo tienes que preparar, que es añadir el
+archivo; para poder subirlo sin problema.
+
+Estado Verde:significa que ya esta listo para subirlo al repositorio.
+
+Estado Gris:al subir el archivo, el color gris indica que ya se guardo.
+
+
